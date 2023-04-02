@@ -7,6 +7,16 @@ public class App {
         Mainan.push("Bola");
         Mainan.push("Voli");
         Mainan.push("Basket");
+        
+        System.out.println();
+        System.out.println("=================================");
+        int i = 0;
+        while(i < Mainan.size()) {
+            System.out.println("Mainan ke-" + i + " adalah " + Mainan.get(i));
+            i++;
+        }
+        System.out.println("=================================");
+        System.out.println();
 
         System.out.println("Isi dari stack  \t\t : " + Mainan);
         System.out.println("Index yang dihapus  \t\t : " + Mainan.pop());
